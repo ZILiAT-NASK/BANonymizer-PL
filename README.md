@@ -1,5 +1,4 @@
-# BANonymizer-PL
-**A fine-tuned model for anonymizing Polish-language social media content**
+# BANonymizer-PL: A fine-tuned model for anonymizing Polish-language social media content
 
 <img src="imgs/surname.png" alt="screenshot" width="400" style="float: left">
 
