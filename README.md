@@ -6,4 +6,4 @@ BANonymizer-PL is a fine-tuned HerBERT-large-cased model trained on a subset of 
 
 It was chosen to merge surnames and pseudonyms into one class to improve the F1 score for the task of masking personal information, while staying in line with the general goal of the model. This decision was driven by the observation that the tested models frequently confused Polish pseudonyms with surnames. Treating these groups as a single label helped mitigate such ambiguities. The model was trained on a dataset of over **20,000 manually labeled samples** and evaluated on a separate test set of more than 2,000 examples. After training, the model exhibited strong performance in identifying sensitive information, achieving high Precision, Recall, and F1-Score, all exceeding **0.8**.
 
-The model is accessible on [**Hugging Face**](https://huggingface.co/NASK-PIB).
+The model is accessible on [**Hugging Face**](https://huggingface.co/NASK-PIB/BANonymizer-PL).
